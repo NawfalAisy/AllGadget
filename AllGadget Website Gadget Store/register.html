@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="JS File/swipe_script.js">
+    <link rel="stylesheet" href="JS File/script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="validation.js" defer></script>
+    <title>AllGadget</title>
+</head>
+
+<body>
+    <div class="register">
+        <form id="register-form">
+            <a href="index.html">
+                <img src="Item/Logo Allgadget.png" class="logo_register">
+            </a>
+
+            <img src="Item/register image.png" class="image_register">
+
+            <p class="text_register_in_image">UPGRADE YOUR LIFE WITH THE GADGETS AVAILABLE AT OUR STORE</p>
+            <p class="subtext_register_in_image">AllGadget is one of the famous and trusted store in Indonesia</p>
+
+            <p class="GetStarted">Get Started</p>
+            <p class="subGetStarted">Create your account first</p>
+
+            <div class="username">
+                <span class="text_name">Fullname</span>
+                <input type="text" class="text_content" id="fullname" name="fullname">
+            </div>
+
+            <div class="gender" id="gender">
+                <span class="text_name">Gender</span>
+                <select class="choosegender">
+                    <option value="default"></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+
+            <div class="Email">
+                <span class="text_name">Email Address</span>
+                <input type="email" class="text_content" id="email" name="email">
+            </div>
+
+            <div class="PhoneNumber">
+                <span class="text_name">Phone Number</span>
+                <input type="text" class="text_content" id="phonenumber" name="phonenumber">
+            </div>
+
+            <div class="Password">
+                <span class="text_name">Password</span>
+                <input type="password" class="text_content" id="password" name="password">
+            </div>
+
+            <div class="ConPassword">
+                <span class="text_name">Confirm Password</span>
+                <input type="password" class="text_content" id="conpassword" name="conpassword">
+            </div>
+
+            <div class="checkpolicy">
+                <input class="check" type="checkbox" id="terms-policy" name="terms-policy">
+                <label for="tac" class="terms-policy">Agree to AllGadget Terms & Policy</label>
+            </div>
+            
+            <div class="signup">
+                <a href="index.html"></a>
+                <input type="submit" value="Sign Up">
+            </div>
+
+            <p id="error" class="error-message"></p>
+        </form>
+    </div>
+</body>
+</html>
